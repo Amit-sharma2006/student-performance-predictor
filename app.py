@@ -1,6 +1,7 @@
-import joblib
-import pandas as pd
+%%writefile app.py
 import streamlit as st
+import pandas as pd
+import joblib
 
 st.set_page_config(page_title="Student Predictor", page_icon="🎓", layout="wide")
 
