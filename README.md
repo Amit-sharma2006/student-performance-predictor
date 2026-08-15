@@ -108,6 +108,8 @@ student-performance-predictor/
 ├── student_data.csv
 └── student_performance_model.pkl
 
+
+
 ## **Download**
 
 To download the project, click the **Code** button on your GitHub repository and select **Download ZIP**, then extract the folder.
@@ -118,10 +120,9 @@ To download the project, click the **Code** button on your GitHub repository and
 
 Clone the repository:
 
-bash
-git clone 
+```bash
+git clone [https://github.com/Amit-sharma2006/student-performance-predictor.git](https://github.com/Amit-sharma2006/student-performance-predictor.git)
 cd student-performance-predictor
-
 Install the required Python libraries by running:
 
 Bash
