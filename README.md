@@ -17,10 +17,6 @@ An ML-based student performance prediction system that predicts a student's fina
 
 ![Feature importance](feature_importance.png)
 
-### Video Demo
-
-[Watch the Project Demo](Demo_video.mp4)
-
 ## Features
 
 - Predicts final exam score using student academic and behavioral data
@@ -94,6 +90,69 @@ The model was evaluated using the R² (R-squared) score on the test dataset.
 6. Streamlit loads the saved model and takes student details as input.
 7. The model predicts the final exam score.
 8. Feature importance is displayed to provide insight into the model.
+
+## Project Structure
+
+```text
+student-performance-predictor/
+│
+├── demo/
+│   ├── Demo_Home.png
+│   ├── Demo_Result_page.png
+│   └── feature_importance.png
+│
+├── AI_driven_student_performance_prediction_system.ipynb
+├── README.md
+├── app.py
+├── requirements.txt
+├── student_data.csv
+└── student_performance_model.pkl
+
+## **Download**
+
+To download the project, click the **Code** button on your GitHub repository and select **Download ZIP**, then extract the folder.
+
+---
+
+## **Installation**
+
+Clone the repository:
+
+bash
+git clone 
+cd student-performance-predictor
+
+Install the required Python libraries by running:
+
+Bash
+pip install -r requirements.txt
+
+How to Run
+Run the Streamlit application:
+
+Bash
+streamlit run app.py
+
+#**Future Improvements**
+
+-> Add more student performance factors
+
+-> Support prediction for multiple students
+
+-> Add performance history and comparison
+
+-> Add more machine learning models
+
+-> Improve prediction recommendations
+
+-> Deploy the application permanently
+
+#**Author**
+Amit Sharma
+B.Tech Computer Science & Engineering with specialization in Data science
+Greater Noida Institute of Technology
+
+
 
 
 
