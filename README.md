@@ -7,15 +7,15 @@ An ML-based student performance prediction system that predicts a student's fina
 ### Application Screenshots
 
 #### Input Interface
-![Student Input](Demo_Home.png)
+![Student Input](demo/Demo_Home.png)
 
 #### Prediction Result
 
-![Prediction Result](Demo_Result_page.png)
+![Prediction Result](demo/Demo_Result_page.png)
 
 #### Feature Importance
 
-![Feature importance](feature_importance.png)
+![Feature importance](demo/feature_importance.png)
 
 ## Features
 
