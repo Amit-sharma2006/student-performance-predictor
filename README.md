@@ -107,51 +107,46 @@ student-performance-predictor/
 ├── requirements.txt
 ├── student_data.csv
 └── student_performance_model.pkl
-
-
-```text
-## **Download**
-
-To download the project, click the **Code** button on your GitHub repository and select **Download ZIP**, then extract the folder.
-
----
+```
 
 ## **Installation**
 
-Clone the repository:
+### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/Amit-sharma2006/student-performance-predictor.git](https://github.com/Amit-sharma2006/student-performance-predictor.git)
+git clone https://github.com/Amit-sharma2006/student-performance-predictor.git
 cd student-performance-predictor
-Install the required Python libraries by running:
+```
 
-Bash
+### 2. Install Required Libraries
+
+```bash
 pip install -r requirements.txt
+```
 
-How to Run
+## **How to Run**
+
 Run the Streamlit application:
 
-Bash
+```bash
 streamlit run app.py
+```
 
-#**Future Improvements**
+## **Future Improvements**
 
--> Add more student performance factors
+* Add more student performance factors
+* Support prediction for multiple students
+* Add performance history and comparison
+* Add more machine learning models
+* Improve prediction recommendations
+* Deploy the application permanently
 
--> Support prediction for multiple students
+## **Author**
 
--> Add performance history and comparison
-
--> Add more machine learning models
-
--> Improve prediction recommendations
-
--> Deploy the application permanently
-
-#**Author**
-Amit Sharma
-B.Tech Computer Science & Engineering with specialization in Data science
+**Amit Sharma**
+B.Tech Computer Science & Engineering with Specialization in Data Science
 Greater Noida Institute of Technology
+
 
 
 
